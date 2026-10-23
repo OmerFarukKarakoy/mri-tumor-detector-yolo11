@@ -34,28 +34,28 @@ Aşağıdaki çıktılar, test veri kümesinden alınan MR görüntüleri üzeri
 ### 1. Glioma Tumor
 *Beyin ve omurilikteki glial dokularda gelişen lezyonun tespiti ve güvenilirlik skoru.*
 
-<img width="350" height="640" alt="meningioma-tumor" src="https://github.com/user-attachments/assets/3b6fe6af-a0c7-44ec-bb27-884a5686d332" />
+<img width="400" height="640" alt="meningioma-tumor" src="https://github.com/user-attachments/assets/3b6fe6af-a0c7-44ec-bb27-884a5686d332" />
 
 ---
 
 ### 2. Meningioma Tumor
 *Beyin ve omurilik zarlarından (meninks) köken alan kitlenin sınıflandırma çıktısı.*
 
-<img width="350" height="640" alt="meningioma-tumor" src="https://github.com/user-attachments/assets/091c5719-6ec8-46a4-9dec-c5a658f3681c" />
+<img width="400" height="640" alt="meningioma-tumor" src="https://github.com/user-attachments/assets/091c5719-6ec8-46a4-9dec-c5a658f3681c" />
 
 ---
 
 ### 3. Pituitary Tumor
 *Hipofiz bezi bölgesindeki kitlesel oluşumun tespiti ve model analizi.*
 
-<img width="350" alt="pituitary-tumor" src="https://github.com/user-attachments/assets/cabd7abf-af48-4ded-b8e0-31f3cdc23065" />
+<img width="400" height="640" alt="pituitary-tumor" src="https://github.com/user-attachments/assets/cabd7abf-af48-4ded-b8e0-31f3cdc23065" />
 
 ---
 
 ### 4. No Tumor (Sağlıklı Doku)
 *Herhangi bir tümöral lezyon içermeyen normal beyin dokusunun doğrulanması.*
 
-<img width="350" alt="no-tumor" src="https://github.com/user-attachments/assets/78a3c09b-d1e3-4161-ad72-4c22e699e1f3" />
+<img width="400" height="640" alt="no-tumor" src="https://github.com/user-attachments/assets/78a3c09b-d1e3-4161-ad72-4c22e699e1f3" />
 
 ---
 
