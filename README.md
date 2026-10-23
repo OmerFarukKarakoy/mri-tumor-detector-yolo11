@@ -30,28 +30,32 @@ Model, beyin MR taramalarında aşağıdaki 4 farklı sınıfı yüksek doğrulu
 
 ## 🖥️ Örnek Teşhis Çıktıları (Visual Results)
 
-Aşağıdaki çıktılar, test veri kümesinde daha önce modele gösterilmemiş MR görüntüleri üzerinde elde edilen gerçek zamanlı model çıkarım (inference) sonuçlarıdır:
+Aşağıdaki çıktılar, test veri kümesinden alınan MR görüntüleri üzerinde modelin gerçekleştirdiği gerçek zamanlı çıkarım (inference) ve sınıflandırma sonuçları:
+### 1. Glioma Tumor
+*Beyin ve omurilikteki glial dokularda gelişen lezyonun tespiti ve güvenilirlik skoru.*
 
-### 1. Glioma Tumor & Meningioma Tumor
-
-| Glioma Tumor Tespiti | Meningioma Tumor Tespiti |
-| :---: | :---: |
-<img width="350" alt="meningioma-tumor" height="640" src="https://github.com/user-attachments/assets/3b6fe6af-a0c7-44ec-bb27-884a5686d332" />
-<img width="350" alt="g<img width="640" height="640" src="https://github.com/user-attachments/assets/bd0868f5-9d40-465c-9355-fe4a96a94248" />
-lioma-tumor" height="640" alt="tahmin_m-196-_jpg rf fdd350ea34acf41536b7ed4be4f8c28c" src="https://github.com/user-attachments/assets/524e5482-610b-42ae-b722-405b11bec1c9" />
-| *Görüntü analizinde Glioma lezyonu tespit edilmiş ve güven skoruyla işlenmiştir.* | *Meningioma zar tümörü tespiti ve güven skoru.* |
-
+<img width="350" height="640" alt="meningioma-tumor" src="https://github.com/user-attachments/assets/3b6fe6af-a0c7-44ec-bb27-884a5686d332" />
 
 ---
 
-### 2. Pituitary Tumor & No Tumor (Sağlıklı)
+### 2. Meningioma Tumor
+*Beyin ve omurilik zarlarından (meninks) köken alan kitlenin sınıflandırma çıktısı.*
 
-| Pituitary Tumor Tespiti | No Tumor (Sağlıklı Doku) |
-| :---: | :---: |
-| <img width="350" alt="pituitary-tumor" src="https://github.com/user-attachments/assets/cabd7abf-af48-4ded-b8e0-31f3cdc23065" /> 
-| <img width="350" alt="no-tumor" src="https://github.com/user-attachments/assets/78a3c09b-d1e3-4161-ad72-4c22e699e1f3" />> |
-| *Hipofiz bezi lezyonunun tespiti ve sınıflandırılması.* | *Tümör bulgusu içermeyen sağlıklı MR taramasının doğrulanması.* |
+<img width="350" height="640" alt="meningioma-tumor" src="https://github.com/user-attachments/assets/091c5719-6ec8-46a4-9dec-c5a658f3681c" />
 
+---
+
+### 3. Pituitary Tumor
+*Hipofiz bezi bölgesindeki kitlesel oluşumun tespiti ve model analizi.*
+
+<img width="350" alt="pituitary-tumor" src="https://github.com/user-attachments/assets/cabd7abf-af48-4ded-b8e0-31f3cdc23065" />
+
+---
+
+### 4. No Tumor (Sağlıklı Doku)
+*Herhangi bir tümöral lezyon içermeyen normal beyin dokusunun doğrulanması.*
+
+<img width="350" alt="no-tumor" src="https://github.com/user-attachments/assets/78a3c09b-d1e3-4161-ad72-4c22e699e1f3" />
 
 ---
 
@@ -84,6 +88,7 @@ lioma-tumor" height="640" alt="tahmin_m-196-_jpg rf fdd350ea34acf41536b7ed4be4f8
 ```bash
 git clone [https://github.com/OmerFarukKarakoy/mri-tumor-detector-yolo11.git](https://github.com/OmerFarukKarakoy/mri-tumor-detector-yolo11.git)
 cd mri-tumor-detector-yolo11<img width="640" height="640" alt="tahmin_gg-52-_jpg rf 078cffb6ed2cbf35c6c0955fbba271e7" src="https://github.com/user-attachments/assets/bb10d2f1-4385-453e-b452-15776e038f4a" />
+ ```
 
 
 2. Gereksinimleri Yükleyin
